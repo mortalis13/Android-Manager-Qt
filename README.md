@@ -3,7 +3,11 @@
 Android device simple file manager.
 Developed using Qt4.
 
-![img](source/img/img1.png)
+![img1](source/img/img1.png)
+---
+![img2](source/img/img2.png)
+
+## Features
 
 - browse and navigate the Android device filesystem
 - get basic file/folder information
@@ -18,7 +22,7 @@ Developed using Qt4.
 - **F4** - Go to a folder from the Path field
 - **Esc** - Exit
 
-In the file list
+### In the file list:
 
 - **F5** - Copy file
 - **Backspace, Left Arrow** - Go to a previous directory
