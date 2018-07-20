@@ -1,0 +1,71 @@
+/storage/sdcard0/WhatsApp
+/storage/sdcard0
+/storage/sdcard0/1-docs
+
+
+[right]
+
+adb pull "/storage/sdcard0/1-test/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹ ÐšÐ°Ð¼ÐµÐ½ÑŒ.pdf" "D:\\"
+adb pull "/storage/sdcard0/1-test/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾.txt" "D:\\"
+
+adb pull "/storage/sdcard0/1-test/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹ ÐšÐ°Ð¼ÐµÐ½ÑŒ.pdf" "D:\\0"
+
+
+=======================
+
+[compare]
+
+adb pull "/storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹ ÐšÐ°Ð¼ÐµÐ½ÑŒ.pdf" "D:\\"
+adb pull "/storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾Ñ�Ð¾Ð²Ñ�ÐºÐ¸Ð¹ ÐšÐ°Ð¼ÐµÐ½ÑŒ.pdf" "D:\\"
+
+adb pull "/storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾Ñ�Ð¾Ð²Ñ�ÐºÐ¸Ð¹ ÐšÐ°Ð¼ÐµÐ½ÑŒ.pdf" "D:\\"
+
+adb pull "/storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾Ñ�Ð¾Ð²Ñ�ÐºÐ¸Ð¹ ÐšÐ°Ð¼ÐµÐ½ÑŒ.pdf" "D:\\"
+adb pull "/storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹ ÐšÐ°Ð¼ÐµÐ½ÑŒ.pdf" "D:\\"
+
+adb pull "/storage/sdcard0/1-docs/1. ÐÐ°ÑÑÐ¸ ÐÐ¾ÑÑÐµÑ Ð¸ Ð¤Ð¸Ð»Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹ ÐÐ°Ð¼ÐµÐ½Ñ.pdf" "D:\\"
+
+Ñ
+
+=======================
+
+
+adb pull "/storage/sdcard0/1-docs/1. Гарри Поттер и Филосовский Камень.pdf" "d:\Documentos\6-temp"
+
+adb pull "/storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾Ñ�Ð¾Ð²Ñ�ÐºÐ¸Ð¹ ÐšÐ°Ð¼ÐµÐ½ÑŒ.pdf" "D:\\"
+adb pull "/storage/sdcard0/1-docs/1. ÐÐ°ÑÑÐ¸ ÐÐ¾ÑÑÐµÑ Ð¸ Ð¤Ð¸Ð»Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹ ÐÐ°Ð¼ÐµÐ½Ñ.pdf" "d:\Documentos\6-temp"
+
+adb pull "/storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾.txt" "d:\Documentos\6-temp"
+
+adb pull "/storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾.txt" "d:\Documentos\6-temp"
+
+adb pull "/storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾.txt" "d:\Documentos\6-temp"
+
+adb pull "/storage/sdcard0/1-docs/Ð“.txt" "d:\Documentos\6-temp"
+
+
+chcp 1252
+adb shell ls storage/sdcard0/1-docs
+adb pull "storage/sdcard0/1-docs/Ð“.txt" "D:\\"
+
+adb pull "storage/sdcard0/1-docs/Ñ.txt" "D:\\"
+adb pull "storage/sdcard0/1-docs/1. ÐÐ°ÑÑÐ¸ ÐÐ¾ÑÑÐµÑ Ð¸ Ð¤Ð¸Ð»Ð¾Ñ.txt" "D:\\"
+
+adb pull "storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾.txt" "D:\\"
+adb pull "storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹ ÐšÐ°Ð¼ÐµÐ½ÑŒ.pdf" "D:\\"
+
+adb pull "storage/sdcard0/1-docs/1. ÐÐ°ÑÑÐ¸ ÐÐ¾ÑÑÐµÑ Ð¸ Ð¤Ð¸Ð»Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹ ÐÐ°Ð¼ÐµÐ½Ñ.pdf" "D:\\"
+
+
+comm='adb pull "/storage/sdcard0/1-docs/1. Ð“Ð°Ñ€Ñ€Ð¸ ÐŸÐ¾Ñ‚Ñ‚ÐµÑ€ Ð¸ Ð¤Ð¸Ð»Ð¾.txt" "d:\\Documentos\\6-temp"'
+
+d0 93 d0 b0 d1 80 d1 80 d0 b8
+Ð“Ð°Ñ€Ñ€Ð¸
+ÐÐ°ÑÑÐ¸
+
+d0 a4 d0 b8 d0 bb d0 be d1 81 d0 be d0 b2 d1 81 d0 ba d0 b8 d0 b9 
+Ð¤Ð¸Ð»Ð¾Ñ�Ð¾Ð²Ñ�ÐºÐ¸Ð¹
+Ð¤Ð¸Ð»Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹
+
+
+zÐüz.txt
