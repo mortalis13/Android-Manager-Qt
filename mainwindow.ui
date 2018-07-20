@@ -140,7 +140,7 @@
              </size>
             </property>
             <property name="text">
-             <string>/storage/extSdCard/2-install/add/</string>
+             <string>/storage/sdcard0</string>
             </property>
            </widget>
           </item>
