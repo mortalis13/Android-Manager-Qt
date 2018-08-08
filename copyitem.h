@@ -6,12 +6,12 @@
 class CopyItem
 {
 public:
-    CopyItem();
+  CopyItem();
 
-    QString command;
-    QString filePath;
-    QString origName;
-    int fileSize;
+  QString command;
+  QString filePath;
+  QString origName;
+  int fileSize;
 };
 
 #endif // COPYITEM_H

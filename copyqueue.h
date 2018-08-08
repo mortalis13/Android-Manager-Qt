@@ -13,28 +13,28 @@
 
 class CopyQueue : public QObject
 {
-    Q_OBJECT
+  Q_OBJECT
 public:
-    explicit CopyQueue(QObject *parent = 0);
-    
-    QList<CopyItem> *queue;
-    CopyProgress *copyProgress;
-    QTimer *timer;
-    QProcess *proc;
-    
-    const CopyItem *currentItem;
-    
-    int current_id;
+  explicit CopyQueue(QObject *parent = 0);
 
-    void add(QString command, int fileSize, QString filePath, QString origName);
-    void copyNext();
-    void startCopy();
-    void renameCopiedFile(QString filePath, QString origName);
-    
-    int count() {
-      return queue->count();
-    }
-    
+  QList<CopyItem> *queue;
+  CopyProgress *copyProgress;
+  QTimer *timer;
+  QProcess *proc;
+
+  const CopyItem *currentItem;
+
+  int current_id;
+
+  void add(QString command, int fileSize, QString filePath, QString origName);
+  void copyNext();
+  void startCopy();
+  void renameCopiedFile(QString filePath, QString origName);
+
+  int count() {
+    return queue->count();
+  }
+
 
 signals:
   void progressValue(int val, int max);
@@ -43,11 +43,11 @@ signals:
   void copyQueueFinished();
 
 private slots:
-    void copyProcFinished(int status);
-    void finishedProgress();
-    void timerUpdate();
-    void setCopyProgressValue(int val, int max);
-    
+  void copyProcFinished(int status);
+  void finishedProgress();
+  void timerUpdate();
+  void setCopyProgressValue(int val, int max);
+
 };
 
 #endif // COPYQUEUE_H

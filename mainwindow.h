@@ -18,84 +18,84 @@ class MainWindow;
 
 class MainWindow : public QMainWindow
 {
-    Q_OBJECT
+  Q_OBJECT
 
-    
-const QString hHeaderStyle = "QHeaderView::section, QHeaderView::section:checked {background-color: #f1f1f1; border: 1px solid #ddd; padding: 4px;}";
-const QString vHeaderStyle = "QHeaderView::section, QHeaderView::section:checked {background-color: #f1f1f1; border: 1px solid #ddd; padding: 4px; min-width: 20px;}";
 
-    
+  const QString hHeaderStyle = "QHeaderView::section, QHeaderView::section:checked {background-color: #f1f1f1; border: 1px solid #ddd; padding: 4px;}";
+  const QString vHeaderStyle = "QHeaderView::section, QHeaderView::section:checked {background-color: #f1f1f1; border: 1px solid #ddd; padding: 4px; min-width: 20px;}";
+
+
 public:
-    explicit MainWindow(QWidget *parent = 0);
-    ~MainWindow();
+  explicit MainWindow(QWidget *parent = 0);
+  ~MainWindow();
 
-    QString getPrevDir(QString dir);
-    QString getCurrentDir(QString dir);
-    
-    QString formatSize(int speedi);
-    QString formatPath(QString path);
-    QString fixPullEncoding(QString item);
-    
-    QString getCodesFromBytes(QByteArray str);
-    QString getCodesFromBytesHex(QByteArray bytes);
-    QString getCodesFromString(QString str);
+  QString getPrevDir(QString dir);
+  QString getCurrentDir(QString dir);
+
+  QString formatSize(int speedi);
+  QString formatPath(QString path);
+  QString fixPullEncoding(QString item);
+
+  QString getCodesFromBytes(QByteArray str);
+  QString getCodesFromBytesHex(QByteArray bytes);
+  QString getCodesFromString(QString str);
 
 
 private:
-    void init();
-    void addActions();
-    void addShortcuts();
-    
-    void updateStatus(int dirlen, int filelen);
-    void goToDir(QString dir = "");
-    
-    QTableView* tableView();
-    
-    
+  void init();
+  void addActions();
+  void addShortcuts();
+
+  void updateStatus(int dirlen, int filelen);
+  void goToDir(QString dir = "");
+
+  QTableView* tableView();
+
+
 private:
-    Ui::MainWindow *ui;
+  Ui::MainWindow *ui;
 
-    QProcess *proc;
+  QProcess *proc;
 
-    QString curDirPath;
-    QString speedText;
+  QString curDirPath;
+  QString speedText;
 
-    QList<FileItem> *dirsList;
-    QList<FileItem> *filesList;
-    
-    QStandardItemModel *tableModel;
+  QList<FileItem> *dirsList;
+  QList<FileItem> *filesList;
 
-    int fileSize;
-    int prevFileSize;
-    int totalCopySize;
-    int curCopyNum;
-    int totalCopyNum;
-    
-    bool copyActive;
+  QStandardItemModel *tableModel;
+
+  int fileSize;
+  int prevFileSize;
+  int totalCopySize;
+  int curCopyNum;
+  int totalCopyNum;
+
+  bool copyActive;
 
 
 private slots:
-    void bTestClick();
-    
-    void bGoClick();
-    void bCopyClick();
-    void listDoubelClick(const QModelIndex &index);
-    void pathEnter();
-    
-    void goRoot();
-    void goUp();
-    void prevDir();
-    void enterDir();
-    
-    void homeList();
-    void endList();
-    
-    void copyProcFinished(int status);
-    void finishedNextCopyAction();
-    void copyQueueFinished();
+  void bTestClick();
 
-    void setCopyProgressValue(int val, int max);
-    void timerUpdate();
+  void bGoClick();
+  void bCopyClick();
+  void listDoubelClick(const QModelIndex &index);
+  void pathEnter();
+
+  void goRoot();
+  void goUp();
+  void prevDir();
+  void enterDir();
+
+  void homeList();
+  void endList();
+
+  void copyProcFinished(int status);
+  void finishedNextCopyAction();
+  void copyQueueFinished();
+
+  void setCopyProgressValue(int val, int max);
+  void timerUpdate();
 
 };
 

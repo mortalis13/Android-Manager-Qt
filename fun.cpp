@@ -3,9 +3,9 @@
 namespace Fun
 {
 
-  void createDirs(QString path) {
-    QDir d;
-    d.mkpath(path);
-  }
-  
+void createDirs(QString path) {
+  QDir d;
+  d.mkpath(path);
+}
+
 }

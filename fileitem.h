@@ -7,22 +7,22 @@
 class FileItem{
 
 public:
-    FileItem();
+  FileItem();
 
-    QIcon fileIcon;
-    QString fileName;
-    QString attributes;
-    int fileSize;
-    QString fileDate;
-    QString filePath;
-    QString filePermissions;
-    QString fileOwner;
-    QString fileType;
-    QColor fileColor;
+  QIcon fileIcon;
+  QString fileName;
+  QString attributes;
+  int fileSize;
+  QString fileDate;
+  QString filePath;
+  QString filePermissions;
+  QString fileOwner;
+  QString fileType;
+  QColor fileColor;
 
 
 public:
-    bool operator==(const FileItem &other);
+  bool operator==(const FileItem &other);
 
 };
 

@@ -12,7 +12,6 @@ public:
   explicit FileTable(QWidget *parent = 0);
 
 
-
 protected:
   void mouseReleaseEvent(QMouseEvent* e);
 

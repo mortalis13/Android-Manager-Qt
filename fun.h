@@ -7,9 +7,9 @@
 
 namespace Fun
 {
-  
-  void createDirs(QString path);
-  
+
+void createDirs(QString path);
+
 };
 
 #endif // FUN_H
